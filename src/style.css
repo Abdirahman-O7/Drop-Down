@@ -1,0 +1,79 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    background-color: rgb(211, 238, 248);
+  }
+  
+  .card {
+    width: 400px;
+    background-color: white;
+    border: 3px solid;
+    margin: 20px;
+  }
+  
+  .card img {
+    width: 400px;
+  }
+  
+  .building-tools {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .javascript {
+    background-color: rgb(95, 93, 206);
+    color: white;
+    margin-right: 5px;
+    padding: 0 5px;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+  
+  .css {
+    background-color: rgb(255, 208, 0);
+    color: white;
+    margin-right: 5px;
+    padding: 0 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+  
+  .html {
+    background-color: rgb(255, 85, 0);
+    color: white;
+    margin-right: 5px;
+    padding: 0 8px;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+  
+  .header {
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  #project-info-1 {
+    padding: 10px
+  }
+  
+  #project-info-2 {
+    padding: 10px
+  }
+  
+  .project-info span {
+    padding: 0;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    font-size: 15px;
+    padding: 8px;
+  }
