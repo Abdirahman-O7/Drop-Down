@@ -9,11 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
   
       if(theContent.hidden === true) {
         theContent.hidden = false
-        theContent.style.height = 'auto'
         this.innerHTML = 'Show Less..'
       } else {
         theContent.hidden = true
-        theContent.style.height = '10px'
         this.innerHTML = 'Show More...'
       }
   
