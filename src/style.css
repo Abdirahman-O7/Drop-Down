@@ -3,7 +3,6 @@ html {
   }
   
   body {
-    display: flex;
     background-color: rgb(211, 238, 248);
   }
   
@@ -55,12 +54,8 @@ html {
     font-weight: bold;
   }
   
-  #project-info-1 {
-    padding: 10px
-  }
-  
-  #project-info-2 {
-    padding: 10px
+  .project-info {
+    padding: 10px;
   }
   
   .project-info span {
